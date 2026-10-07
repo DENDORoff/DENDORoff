@@ -28,7 +28,7 @@
   <a href="https://discord.deworld.su"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://telegram.deworld.su"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="https://vk.deworld.su"><img src="https://img.shields.io/badge/VK-0077FF?style=flat-square&logo=vk&logoColor=white" alt="VK"></a>
-  <a href="https://deworld.su"><img src="https://img.shields.io/badge/Site-deworld.su-3B82F6?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://deworld.su"><img src="https://img.shields.io/badge/Site-3B82F6?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
 </p>
 
 ## Стек
@@ -70,15 +70,11 @@
 <details>
   <summary>YouTube</summary>
 
-<p align="center">
-  <img src="https://ytcards.demolab.com/?username=deworld_ru&theme=dark&layout=compact&lang=ru&max=3" alt="YouTube videos">
-</p>
-
 <!-- YOUTUBE:START -->
 <!-- YOUTUBE:END -->
 
 <p align="center">
-  <a href="https://youtube.deworld.su">Больше видео</a>
+  <a href="https://youtube.deworld.su">youtube.deworld.su</a>
 </p>
 
 </details>
@@ -113,10 +109,22 @@
 
 </details>
 
+## Статус
+
+<p align="center">
+  <a href="https://mc.deworld.su"><img src="https://mcsrvstat.us/banner/2/mc.deworld.su/flat" alt="Minecraft mc.deworld.su"></a>
+</p>
+
 ## Счётчик
 
 <p align="center">
   <img src="https://count.getloli.com/get/@DENDORoff?theme=rule34" alt="Visitors" />
+</p>
+
+<p align="center">
+  <a href="https://music.yandex.kz/artist/10368843"><img src="https://img.shields.io/badge/Яндекс.Музыка-FF3333?style=flat-square&logo=yandex&logoColor=white" alt="Yandex Music"></a>
+  <a href="https://steamcommunity.com/id/DENDOR_YT"><img src="https://img.shields.io/badge/Steam-000000?style=flat-square&logo=steam&logoColor=white" alt="Steam"></a>
+  <a href="https://discord.deworld.su"><img src="https://img.shields.io/badge/Discord-dendoroff-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 <p align="center">
