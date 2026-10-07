@@ -1,0 +1,23 @@
+name: Update README with latest YouTube videos
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Ежедневно в 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get latest YouTube videos
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCYVg8tHI6Avp_SJ9gdduC_g"
+          max_post_count: 5
+          readme_path: README.md
+          comment_tag_name: "YOUTUBE"
+          template: "- [$title]($url) • $date"
+          date_format: "dd.MM.yyyy"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
