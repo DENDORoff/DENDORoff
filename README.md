@@ -1,22 +1,21 @@
-<!-- Заголовок с капсулой -->
+﻿# DENDORoff
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:1E3A8A&height=150&section=header&text=DENDORoff&fontSize=60&fontAlignY=35&animation=fadeIn&desc=deworld%20dev&descAlignY=55&descSize=18" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:1E3A8A&height=150&section=header&text=DENDORoff&fontSize=60&fontAlignY=35&desc=deworld%20dev&descAlignY=55&descSize=18" alt="header"/>
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3B82F6&center=true&vCenter=true&width=380&lines=Java+%7C+Spigot%2FPaper;JS+%7C+Node.js;PHP+%7C+Web;Minecraft+plugins" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3B82F6&center=true&vCenter=true&width=380&lines=Java+%7C+Spigot%2FPaper;JS+%7C+Node.js;PHP+%7C+Web;Minecraft+plugins" alt="typing"/>
   </a>
 </p>
-
-
 
 ## О себе
 
 <details>
   <summary>Обо мне</summary>
 
-Привет! Я `DENDORoff` — разработчик из Казахстана. Пишу плагины для Minecraft (Spigot/Paper) и веб-проекты на JS/PHP.
+Привет! Я DENDORoff — разработчик из Казахстана. Пишу плагины для Minecraft (Spigot/Paper) и веб-проекты на JS/PHP.
 
 </details>
 
@@ -38,21 +37,17 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,nodejs,php,html,css,git,github,vscode,idea&theme=dark" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=java,js,nodejs,php,html,css,git,github,vscode,idea&theme=dark" alt="Tech Stack"/>
   </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Spigot-Paper%20API-yellow?style=flat-square" alt="Spigot/Paper">
   <img src="https://img.shields.io/badge/Bukkit-Development-orange?style=flat-square" alt="Bukkit">
-  <img src="https://img.shields.io/badge/Vanilla%20JS-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Vanilla JS">
+  <img src="https://img.shields.io/badge/Vanilla%20JS-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS">
 </p>
 
 </details>
-
-
-
-
 
 ## Статистика
 
@@ -60,34 +55,34 @@
   <summary>GitHub</summary>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=DENDORoff&hide_rank=true&hide_title=true&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=dark_github" alt="GitHub Stats"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=DENDORoff&hide_rank=true&hide_title=true&show_icons=true&include_all_commits=true&theme=dark_github" alt="stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=DENDORoff&layout=compact&hide_title=true&langs_count=10&hide_values=true&theme=dark_github" alt="Top Languages"/>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=DENDORoff&layout=compact&hide_title=true&langs_count=10&hide_values=true&theme=dark_github" alt="langs"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=DENDORoff&theme=dark&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=DENDORoff&theme=dark&hide_border=true" alt="streak"/>
 </p>
 
 </details>
 
-## Достижения
+## Трофеи
 
 <details>
-    <summary>Трофеи</summary>
+  <summary>Трофеи</summary>
 
-  <p align="center">
-    <img src="https://github-trophies.vercel.app/?username=DENDORoff&theme=onestar&no-frame=true&row=1&column=6" alt="Трофеи"/>
-  </p>
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=DENDORoff&theme=onestar&no-frame=true&row=1&column=6" alt="Трофеи"/>
+</p>
 
-  </details>
+</details>
 
 ## Счётчик
 
 <p align="center">
-  <img src="https://count.getloli.com/get/@DENDORoff?theme=rule34" alt="Visitors" />
+  <img src="https://count.getloli.com/get/@DENDORoff?theme=rule34" alt="Visitors"/>
 </p>
 
 <p align="center">
