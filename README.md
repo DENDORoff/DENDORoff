@@ -108,7 +108,7 @@
   <summary>Trophies</summary>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DENDORoff&theme=onestar&no-frame=true&row=1&column=6&no-bg=true" alt="Trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=DENDORoff&theme=onestar&no-frame=true&row=1&column=6" alt="Trophies"/>
 </p>
 
 </details>
