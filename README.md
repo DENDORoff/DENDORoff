@@ -76,13 +76,13 @@
 ## Достижения
 
 <details>
-  <summary>Trophies</summary>
+    <summary>Трофеи</summary>
 
-<p align="center">
-  <img src="https://github-trophies.vercel.app/?username=DENDORoff&theme=onestar&no-frame=true&row=1&column=6" alt="Trophies"/>
-</p>
+  <p align="center">
+    <img src="https://github-trophies.vercel.app/?username=DENDORoff&theme=onestar&no-frame=true&row=1&column=6" alt="Трофеи"/>
+  </p>
 
-</details>
+  </details>
 
 ## Счётчик
 
