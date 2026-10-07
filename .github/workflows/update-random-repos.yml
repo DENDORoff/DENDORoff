@@ -1,0 +1,69 @@
+name: Update Random Repositories
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # Ежедневно в 01:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate random repos block
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const username = 'DENDORoff';
+
+            const { data: repos } = await github.rest.repos.listForUser({
+              username,
+              type: 'owner',
+              per_page: 100,
+              sort: 'updated'
+            });
+
+            const publicRepos = repos.filter(r => !r.fork && !r.archived);
+
+            const shuffled = [...publicRepos].sort(() => Math.random() - 0.5);
+            const selected = shuffled.slice(0, 5);
+
+            const lines = selected.map(r => {
+              const lang = r.language ? `• \`${r.language}\`` : '';
+              const stars = r.stargazers_count > 0 ? `• ⭐ ${r.stargazers_count}` : '';
+              const desc = r.description ? ` — ${r.description}` : '';
+              return `- [${r.name}](${r.html_url}) ${lang} ${stars}${desc}`;
+            }).join('\n');
+
+            const content = `## 🚀 Случайные репозитории
+
+<details>
+  <summary>Развернуть</summary>
+
+${lines}
+
+</details>`;
+
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+
+            const startMarker = '<!-- REPOS:START -->';
+            const endMarker = '<!-- REPOS:END -->';
+
+            if (readme.includes(startMarker) && readme.includes(endMarker)) {
+              const reg = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'g');
+              readme = readme.replace(reg, `${startMarker}\n${content}\n${endMarker}`);
+            } else {
+              readme += `\n\n${startMarker}\n${content}\n${endMarker}\n`;
+            }
+
+            fs.writeFileSync(readmePath, readme);
+            core.info('Random repos block updated');
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: обновить случайные репозитории'
+          file_pattern: README.md

@@ -9,6 +9,17 @@
   </a>
 </p>
 
+<style>
+  details[open] > *:not(summary) {
+    animation: fade-in 280ms ease-out;
+  }
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0);   }
+  }
+  summary { cursor: pointer; user-select: none; }
+</style>
+
 ## 👋 О себе
 
 <details>
@@ -16,29 +27,28 @@
 
 Привет! Я `DENDORoff` — разработчик из Казахстана. Основной фокус: плагины для Minecraft (Spigot/Paper), а также веб-проекты на JS/PHP. Создаю практичные решения с акцентом на простоту и удобство.
 
-- 🌐 Сайт: [deworld.su](https://deworld.su)
-- 🕒 Часовой пояс: UTC +05:00 (Казахстан)
-- 🔗 ORCID: [0009-0005-1341-6317](https://orcid.org/0009-0005-1341-6317)
-
 </details>
 
 ## 🌐 Связь со мной
 
 <p align="center">
-  <a href="https://github.com/DENDORoff">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://vk.com/deworld_ru">
-    <img src="https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white" alt="VK">
-  </a>
-  <a href="https://youtube.com/@deworld_ru">
+  <a href="https://youtube.deworld.su">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+  <a href="https://twitch.tv/dendoroff">
+    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch">
+  </a>
+  <a href="https://discord.deworld.su">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+  </a>
+  <a href="https://telegram.deworld.su">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://vk.deworld.su">
+    <img src="https://img.shields.io/badge/VK-0077FF?style=for-the-badge&logo=vk&logoColor=white" alt="VK">
   </a>
   <a href="https://deworld.su">
     <img src="https://img.shields.io/badge/Website-deworld.su-3B82F6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
-  </a>
-  <a href="https://orcid.org/0009-0005-1341-6317">
-    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID">
   </a>
 </p>
 
@@ -61,20 +71,20 @@
 
 </details>
 
-## 🚀 Избранные проекты
+<!-- REPOS:START -->
+## 🚀 Случайные репозитории
 
 <details>
   <summary>Развернуть</summary>
 
-| Проект | Описание | Язык | Ссылки |
-|---|---|---|---|
-| **[DwBroadcast](https://github.com/DENDORoff/DwBroadcast)** | Продвинутая система объявлений для Minecraft | `Java` | [⭐ Star](https://github.com/DENDORoff/DwBroadcast/stargazers) • [Code](https://github.com/DENDORoff/DwBroadcast) |
-| **[DwChat](https://github.com/DENDORoff/DwChat)** | Гибкая система чата с расширенным функционалом | `Java` | [⭐ Star](https://github.com/DENDORoff/DwChat/stargazers) • [Code](https://github.com/DENDORoff/DwChat) |
-| **[DwChatColor](https://github.com/DENDORoff/DwChatColor)** | Смена цвета сообщений в чате | `Java` | [⭐ Star](https://github.com/DENDORoff/DwChatColor/stargazers) • [Code](https://github.com/DENDORoff/DwChatColor) |
-| **[adaptive-widget](https://github.com/DENDORoff/adaptive-widget)** | ИИ-чат поддержки, подстраивающийся под дизайн сайта. Виджет + backend + админка | `JavaScript` | [⭐ Star](https://github.com/DENDORoff/adaptive-widget/stargazers) • [Code](https://github.com/DENDORoff/adaptive-widget) |
-| **[adaptive-widget-demo](https://github.com/DENDORoff/adaptive-widget-demo)** | Демо-версия адаптивного виджета | `PHP` | [⭐ Star](https://github.com/DENDORoff/adaptive-widget-demo/stargazers) • [Code](https://github.com/DENDORoff/adaptive-widget-demo) |
+- [DENDORoff.github.io](https://github.com/DENDORoff/DENDORoff.github.io) • `HTML` • ⭐ 0 — deworld dev
+- [DwBroadcast](https://github.com/DENDORoff/DwBroadcast) • `Java` • ⭐ 1 — Продвинутая система объявлений
+- [adaptive-widget](https://github.com/DENDORoff/adaptive-widget) • `JavaScript` • ⭐ 1 — Adaptive Widget — ИИ-чат поддержки, который подстраивается под дизайн сайта. Виджет (1 файл) + backend (Node.js, без npm) + админка оператора.
+- [DwChat](https://github.com/DENDORoff/DwChat) • `Java` • ⭐ 1 — Advanced Chat System
+- [DwChatColor](https://github.com/DENDORoff/DwChatColor) • `Java` • ⭐ 1 — Продвинутая система смены цвета сообщений в чате
 
 </details>
+<!-- REPOS:END -->
 
 ## 📺 Последние видео на YouTube
 
@@ -130,10 +140,6 @@
 
 <p align="center">
   <img src="https://count.getloli.com/get/@DENDORoff?theme=rule34" alt="Счётчик посетителей" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DENDORoff&label=Просмотров%20профиля&color=3B82F6&style=flat-square" alt="Profile Views"/>
 </p>
 
 <p align="center">
