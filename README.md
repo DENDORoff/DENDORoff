@@ -112,7 +112,7 @@
 ## Статус
 
 <p align="center">
-  <a href="https://mc.deworld.su"><img src="https://img.shields.io/badge/mc.deworld.su-online-brightgreen?style=flat-square&logo=minecraft&logoColor=white" alt="Minecraft mc.deworld.su"></a>
+  <a href="https://mc.deworld.su"><img src="https://mcsrvstat.us/banner/2/mc.deworld.su/flat" alt="Minecraft mc.deworld.su"></a>
 </p>
 
 ## Счётчик
