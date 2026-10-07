@@ -50,34 +50,9 @@
 
 </details>
 
-<!-- REPOS:START -->
-## Репозитории
 
-<details>
-  <summary>Случайные</summary>
 
-- [DENDORoff.github.io](https://github.com/DENDORoff/DENDORoff.github.io) • `HTML` • ⭐ 0 — deworld dev
-- [DwBroadcast](https://github.com/DENDORoff/DwBroadcast) • `Java` • ⭐ 1 — Продвинутая система объявлений
-- [adaptive-widget](https://github.com/DENDORoff/adaptive-widget) • `JavaScript` • ⭐ 1 — Adaptive Widget — ИИ-чат поддержки, который подстраивается под дизайн сайта. Виджет (1 файл) + backend (Node.js, без npm) + админка оператора.
-- [DwChat](https://github.com/DENDORoff/DwChat) • `Java` • ⭐ 1 — Advanced Chat System
-- [DwChatColor](https://github.com/DENDORoff/DwChatColor) • `Java` • ⭐ 1 — Продвинутая система смены цвета сообщений в чате
 
-</details>
-<!-- REPOS:END -->
-
-## Видео
-
-<details>
-  <summary>YouTube</summary>
-
-<!-- YOUTUBE:START -->
-<!-- YOUTUBE:END -->
-
-<p align="center">
-  <a href="https://youtube.deworld.su">youtube.deworld.su</a>
-</p>
-
-</details>
 
 ## Статистика
 
